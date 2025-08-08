@@ -1,15 +1,15 @@
 // Selection sort
 
 // Notes
-// - O(n²) time complexity
-// - simple, yet slow algorithm therefore rarely used
-// - Minimizes swaps
+// - O(n²) time complexity.
+// - Simple, yet slow algorithm therefore rarely used.
+// - Minimizes swaps.
 
 function selectionSort(arr: number[]): number[] {
     for(let i = 0; i < arr.length; i++) {
         // Find if a smaller value than i exists
         let smallest = i
-
+        
         for(let j = i + 1; j < arr.length; j++) {
             if(arr[j] < arr[smallest]) {
                 smallest = j
@@ -29,4 +29,4 @@ function selectionSort(arr: number[]): number[] {
 }
 
 // Testing
-const sortedArr = selectionSort([2,13,5,1,-5,27,14,2]);
+export const sortedArr = selectionSort([2,13,5,1,-5,27,14,2]);
