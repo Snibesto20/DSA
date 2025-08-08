@@ -3,6 +3,7 @@
 // Notes
 // - O(n²) time complexity.
 // - Simple, yet slow algorithm therefore rarely used.
+// - Divides the array into a sorted and unsorted part.
 // - Minimizes swaps.
 
 function selectionSort(arr: number[]): number[] {
