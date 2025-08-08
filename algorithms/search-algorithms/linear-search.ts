@@ -1,4 +1,4 @@
-// Linear sort
+// Linear search
 
 // Notes
 // - O(n) time complexity.
@@ -15,4 +15,4 @@ function linearSearch(arr: number[], target: number): number {
 }
 
 // Testing
-[2,13,5,1,-5,27,14,2]
+linearSearch([2,13,5,1,-5,27,14,2], 27)
